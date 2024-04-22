@@ -277,7 +277,7 @@ patch(PaymentScreen.prototype, {
 
                 if (data === "internal error") {
                     def.resolve({
-                        message: _t("Odoo error while processing transaction."),
+                        message: _t("Nirvagi Error while processing transaction."),
                     });
                     return;
                 }
@@ -461,7 +461,7 @@ patch(PaymentScreen.prototype, {
 
                 if (data === "internal error") {
                     def.resolve({
-                        message: _t("Odoo error while processing transaction."),
+                        message: _t("Nirvagi Error while processing transaction."),
                     });
                     return;
                 }

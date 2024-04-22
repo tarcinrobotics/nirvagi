@@ -258,8 +258,8 @@ msgstr "No response from server (connected to network?)"
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
-msgstr "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
+msgstr "Nirvagi Error while processing transaction."
 
 #. module: pos_mercury
 #. odoo-javascript

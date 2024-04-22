@@ -254,7 +254,7 @@ msgstr "서버에서 응답이 없습니다 (네트워크에 연결되어 있습
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
 msgstr "트랜잭션을 처리하는 동안 Odoo 오류가 발생했습니다."
 
 #. module: pos_mercury

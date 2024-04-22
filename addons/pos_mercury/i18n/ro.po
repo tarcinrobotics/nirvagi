@@ -251,7 +251,7 @@ msgstr "Niciun răspune de la server (conectat la rețea?)"
 #. odoo-javascript
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
 msgstr "Eroare Odoo la procesarea tranzacției"
 
 #. module: pos_mercury

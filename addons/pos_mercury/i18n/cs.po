@@ -249,7 +249,7 @@ msgstr "Žádná odpověď ze serveru (jste připojeni k síti?)"
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
 msgstr "Odoo chyba při zpracování transakce."
 
 #. module: pos_mercury

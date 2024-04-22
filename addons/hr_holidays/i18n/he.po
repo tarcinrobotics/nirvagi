@@ -2225,7 +2225,7 @@ msgstr "שעות"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__hr_icon_display
 #: model:ir.model.fields,field_description:hr_holidays.field_res_users__hr_icon_display
 msgid "Hr Icon Display"
-msgstr "תצוגת סמל של משאבי אנוש (HR)"
+msgstr "תצוגת סמל של משאבי אנוש"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_cancel_leave__id
@@ -2842,7 +2842,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__responsible_ids
 msgid "Notified Time Off Officer"
-msgstr ""
+msgstr "התראות על חופשה"
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__second_month__nov

@@ -3225,6 +3225,13 @@ msgid "Clothes"
 msgstr "เสื้อผ้า"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
+#, python-format
+msgid "Clothes, Marketing, ..."
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:website.s_embed_code_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -3924,6 +3931,13 @@ msgstr "เริ่มต้น"
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
 msgstr "สิทธิการเข้าถึงเริ่มต้น"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
+#, python-format
+msgid "Default Input Style"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__default_lang_id
@@ -7228,7 +7242,10 @@ msgid "Library"
 msgstr "ห้องสมุด"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse_options
+#, python-format
 msgid "Light"
 msgstr "อ่อน"
 
@@ -10890,8 +10907,11 @@ msgid "Structure"
 msgstr "โครงสร้าง"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
+#, python-format
 msgid "Style"
 msgstr "สไตล์"
 
@@ -11170,6 +11190,15 @@ msgid ""
 msgstr ""
 "กล่องชาร์จขนาดกะทัดรัดที่ให้บริการชาร์จขณะเดินทางที่สะดวกสบายด้วยอายุการใช้งานแบตเตอรี่สูงสุด"
 " 17 ชั่วโมง คุณจึงสามารถเพลิดเพลินกับเพลงโปรดได้โดยไม่ติดขัด"
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/res_company.py:0
+#, python-format
+msgid ""
+"The company %(company_name)r cannot be archived because it has a linked website %(website_name)r.\n"
+"Change that website's company first."
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -11989,13 +12018,6 @@ msgid ""
 "confirm."
 msgstr ""
 "พิมพ์'<i class=\"confirm_word\">ใช้</i>' ในกล่องด้านล่างหากคุณต้องการยืนยัน."
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
-#, python-format
-msgid "Type an industry (Fashion, Electronic store, etc...)"
-msgstr ""
 
 #. module: website
 #. odoo-javascript

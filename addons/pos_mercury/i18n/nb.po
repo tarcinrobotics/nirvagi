@@ -239,7 +239,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
 msgstr "Odoo-feil under behandling av transaksjon."
 
 #. module: pos_mercury

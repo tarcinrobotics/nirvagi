@@ -45,7 +45,7 @@ QUnit.test("ErrorDialog with traceback", async (assert) => {
         },
     });
     assert.containsOnce(target, ".o_dialog");
-    assert.strictEqual(target.querySelector("header .modal-title").textContent, "Odoo Error");
+    assert.strictEqual(target.querySelector("header .modal-title").textContent, "Nirvagi Error");
     const mainButtons = target.querySelectorAll("main button");
     assert.deepEqual(
         [...mainButtons].map((el) => el.textContent),

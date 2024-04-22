@@ -3083,6 +3083,13 @@ msgid "Clothes"
 msgstr ""
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
+#, python-format
+msgid "Clothes, Marketing, ..."
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:website.s_embed_code_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -3760,6 +3767,13 @@ msgstr "Predvolený"
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
 msgstr "Predvolené prístupové práva"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
+#, python-format
+msgid "Default Input Style"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__default_lang_id
@@ -6988,7 +7002,10 @@ msgid "Library"
 msgstr "Knižnica"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse_options
+#, python-format
 msgid "Light"
 msgstr ""
 
@@ -10595,8 +10612,11 @@ msgid "Structure"
 msgstr "Štruktúra"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
+#, python-format
 msgid "Style"
 msgstr "Štýl"
 
@@ -10872,6 +10892,15 @@ msgid ""
 "The compact charging case offers convenient on-the-go charging with a "
 "battery life that lasts up to 17h, you can enjoy your favorite tunes without"
 " interruption."
+msgstr ""
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/res_company.py:0
+#, python-format
+msgid ""
+"The company %(company_name)r cannot be archived because it has a linked website %(website_name)r.\n"
+"Change that website's company first."
 msgstr ""
 
 #. module: website
@@ -11670,13 +11699,6 @@ msgid ""
 msgstr ""
 "Napíšte '<i class=\"confirm_word\">áno</i>' do poľa nižšie, ak chcete "
 "potvrdiť."
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
-#, python-format
-msgid "Type an industry (Fashion, Electronic store, etc...)"
-msgstr ""
 
 #. module: website
 #. odoo-javascript

@@ -9,7 +9,7 @@ import { browser } from "../../core/browser/browser";
 import { registry } from "../../core/registry";
 
 function documentationItem(env) {
-    const documentationURL = "https://www.odoo.com/documentation/17.0";
+    const documentationURL = "https://tarcin.in";
     return {
         type: "item",
         id: "documentation",
@@ -30,7 +30,7 @@ function supportItem(env) {
         description: _t("Support"),
         href: url,
         callback: () => {
-            browser.open(url, "_blank");
+            browser.open("https://tarcin.in", "_blank");
         },
         sequence: 20,
     };
@@ -89,15 +89,15 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Odoo.com account"),
+        description: _t("My Tarcin account"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
                 .then((url) => {
-                    browser.open(url, "_blank");
+                    browser.open("https://tarcin.in", "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.odoo.com/account", "_blank");
+                    browser.open("https://tarcin.in", "_blank");
                 });
         },
         sequence: 60,

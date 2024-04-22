@@ -5,8 +5,8 @@
 # Translators:
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2024
 # Wil Odoo, 2024
-# Chloe Wang, 2024
 # 湘子 南 <1360857908@qq.com>, 2024
+# Chloe Wang, 2024
 # Jeffery CHEN <jeffery9@gmail.com>, 2024
 # 
 msgid ""
@@ -444,7 +444,7 @@ msgstr "无法批准原因"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__product_ids
 msgid "Categories"
-msgstr "电商品类"
+msgstr "类别"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_id
@@ -1146,7 +1146,7 @@ msgstr "内部说明"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__description
 msgid "Internal Notes"
-msgstr "内部凭单"
+msgstr "备注"
 
 #. module: hr_expense
 #. odoo-python
@@ -2073,7 +2073,7 @@ msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
 "category cost will change expense amounts. Make sure it is what you want to "
 "do."
-msgstr ""
+msgstr "该类别有未提交的费用。更新类别成本将改变支出金额。请确保您想进行此操作。"
 
 #. module: hr_expense
 #. odoo-javascript

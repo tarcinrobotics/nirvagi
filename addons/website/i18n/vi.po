@@ -3,9 +3,9 @@
 # 	* website
 # 
 # Translators:
-# Thi Huong Nguyen, 2023
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
+# Thi Huong Nguyen, 2024
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:44+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2024\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3242,6 +3242,13 @@ msgid "Clothes"
 msgstr "Quần áo"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
+#, python-format
+msgid "Clothes, Marketing, ..."
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:website.s_embed_code_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -3943,6 +3950,13 @@ msgstr "Mặc định"
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
 msgstr "Quyền truy cập mặc định"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
+#, python-format
+msgid "Default Input Style"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__default_lang_id
@@ -7256,7 +7270,10 @@ msgid "Library"
 msgstr "Thư viện"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse_options
+#, python-format
 msgid "Light"
 msgstr "Sáng"
 
@@ -9415,7 +9432,7 @@ msgstr "Theo dõi tiến trình"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar
 msgid "Progress bar"
-msgstr ""
+msgstr "Thanh tiến trình"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -10934,8 +10951,11 @@ msgid "Structure"
 msgstr "Cấu trúc lương"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_searchbar/options.js:0
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
+#, python-format
 msgid "Style"
 msgstr "Phong cách"
 
@@ -11215,6 +11235,15 @@ msgstr ""
 "Hộp sạc nhỏ gọn mang đến khả năng sạc tiện lợi khi di chuyển cùng với thời "
 "lượng pin kéo dài tới 17h, bạn có thể thưởng thức những giai điệu yêu thích "
 "mà không lo bị gián đoạn."
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/res_company.py:0
+#, python-format
+msgid ""
+"The company %(company_name)r cannot be archived because it has a linked website %(website_name)r.\n"
+"Change that website's company first."
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -12057,13 +12086,6 @@ msgid ""
 msgstr ""
 "Kiểu '<i class=\"confirm_word\">đồng ý</i>' trong hộp bên dưới nếu bạn muốn "
 "xác nhận."
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
-#, python-format
-msgid "Type an industry (Fashion, Electronic store, etc...)"
-msgstr ""
 
 #. module: website
 #. odoo-javascript
@@ -13365,6 +13387,14 @@ msgstr ""
 #, python-format
 msgid "You cannot duplicate this field."
 msgstr "Bạn không thể nhân bản trường này."
+
+#. module: website
+#: code:addons/website/models/website_menu.py:0
+#, python-format
+msgid ""
+"You cannot delete this website menu as this serves as the default parent "
+"menu for new websites (e.g., /shop, /event, ...)."
+msgstr ""
 
 #. module: website
 #. odoo-python

@@ -3572,7 +3572,7 @@ msgstr "Eroare Client Odoo"
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
+msgid "Nirvagi Error"
 msgstr "Eroare Odoo"
 
 #. module: web

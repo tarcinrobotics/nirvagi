@@ -643,7 +643,7 @@ Please change the quantity done or the rounding precision of your unit of measur
         if 'date_deadline' in vals:
             self._set_date_deadline(vals.get('date_deadline'))
         if 'move_orig_ids' in vals:
-            move_to_recompute_state |= self.filtered(lambda m: m.state not in ['draft', 'cance', 'done'])
+            move_to_recompute_state |= self.filtered(lambda m: m.state not in ['draft', 'cancel', 'done'])
         if 'location_dest_id' in vals:
             move_to_check_dest_location = self.filtered(lambda m: m.location_dest_id.id != vals.get('location_dest_id'))
         res = super(StockMove, self).write(vals)
@@ -1020,7 +1020,8 @@ Please change the quantity done or the rounding precision of your unit of measur
                     # link all move lines to record 0 (the one we will keep).
                     moves.mapped('move_line_ids').write({'move_id': moves[0].id})
                     # merge move data
-                    moves[0].write(moves._merge_moves_fields())
+                    merge_extra = self.env.context.get('merge_extra') and bool(merge_into)
+                    moves[0].write(moves.with_context(merge_extra=merge_extra)._merge_moves_fields())
                     # update merged moves dicts
                     moves_to_unlink |= moves[1:]
                     merged_moves |= moves[0]
@@ -1052,9 +1053,10 @@ Please change the quantity done or the rounding precision of your unit of measur
                     pos_move.product_uom_qty = 0
                     moves_to_cancel |= pos_move
 
+        # We are using propagate to False in order to not cancel destination moves merged in moves[0]
+        (moves_to_unlink | moves_to_cancel)._clean_merged()
+
         if moves_to_unlink:
-            # We are using propagate to False in order to not cancel destination moves merged in moves[0]
-            moves_to_unlink._clean_merged()
             moves_to_unlink._action_cancel()
             moves_to_unlink.sudo().unlink()
 
@@ -1686,8 +1688,8 @@ Please change the quantity done or the rounding precision of your unit of measur
                     if not available_move_lines:
                         continue
                     for move_line in move.move_line_ids.filtered(lambda m: m.quantity_product_uom):
-                        if available_move_lines.get((move_line.location_id, move_line.lot_id, move_line.result_package_id, move_line.owner_id)):
-                            available_move_lines[(move_line.location_id, move_line.lot_id, move_line.result_package_id, move_line.owner_id)] -= move_line.quantity_product_uom
+                        if available_move_lines.get((move_line.location_id, move_line.lot_id, move_line.package_id, move_line.owner_id)):
+                            available_move_lines[(move_line.location_id, move_line.lot_id, move_line.package_id, move_line.owner_id)] -= move_line.quantity_product_uom
                     for (location_id, lot_id, package_id, owner_id), quantity in available_move_lines.items():
                         need = move.product_qty - sum(move.move_line_ids.mapped('quantity_product_uom'))
                         # `quantity` is what is brought by chained done move lines. We double check

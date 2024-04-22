@@ -24,8 +24,8 @@
 # Netta Waizer, 2023
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2023
 # Yihya Hugirat <hugirat@gmail.com>, 2023
-# MichaelHadar, 2023
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2024
+# MichaelHadar, 2024
 # yael terner, 2024
 # 
 msgid ""
@@ -415,7 +415,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text order-2\">Sub-tasks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text order-2\">תת משימות</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -3528,7 +3528,7 @@ msgstr "שיתוף פרויקטים: משימה"
 #. module: project
 #: model:ir.model,name:project.model_project_project_stage
 msgid "Project Stage"
-msgstr "שלבי הפרויקט"
+msgstr "שלב הפרויקט"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_stage_change
@@ -5516,7 +5516,7 @@ msgstr "למשל מסיבת משרד"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "e.g. Product Launch"
-msgstr "לְמָשָׁל השקת מוצר"
+msgstr "למשל השקת מוצר..."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form

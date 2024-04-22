@@ -3,8 +3,9 @@
 # 	* web
 # 
 # Translators:
-# Wil Odoo, 2023
 # Ryoko Tsuda <ryoko@quartile.co>, 2024
+# Martin Trigaux, 2024
+# Wil Odoo, 2024
 # Junko Augias, 2024
 # 
 msgid ""
@@ -1046,6 +1047,15 @@ msgstr "qweb指示コンテキストを追加"
 #, python-format
 msgid "Add start date"
 msgstr "開始日を追加"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#, python-format
+msgid "Add to Favorites"
+msgstr "お気に入りに追加"
 
 #. module: web
 #. odoo-javascript
@@ -5115,7 +5125,7 @@ msgstr "Odooクライアントエラー"
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
+msgid "Nirvagi Error"
 msgstr "Odooエラー"
 
 #. module: web
@@ -5740,7 +5750,7 @@ msgstr "進捗バー"
 #: code:addons/web/static/src/views/view_components/column_progress.xml:0
 #, python-format
 msgid "Progress bar"
-msgstr ""
+msgstr "進捗バー"
 
 #. module: web
 #. odoo-javascript
@@ -6029,6 +6039,15 @@ msgstr "フィールドを削除"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#: code:addons/web/static/src/views/fields/boolean_favorite/boolean_favorite_field.xml:0
+#, python-format
+msgid "Remove from Favorites"
+msgstr "お気に入りから削除"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/calendar/filter_panel/calendar_filter_panel.xml:0
 #: code:addons/web/static/src/views/calendar/filter_panel/calendar_filter_panel.xml:0
 #, python-format
@@ -6246,6 +6265,13 @@ msgstr "保存して新規"
 #, python-format
 msgid "Save as:"
 msgstr "名前を付けて保存 :"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/custom_favorite_item/custom_favorite_item.xml:0
+#, python-format
+msgid "Save current search"
+msgstr "現在の検索結果を保存"
 
 #. module: web
 #. odoo-javascript

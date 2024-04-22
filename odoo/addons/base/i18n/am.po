@@ -22036,7 +22036,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "TarcinBot"
 msgstr ""
 
 #. module: base

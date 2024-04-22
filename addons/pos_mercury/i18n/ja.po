@@ -253,7 +253,7 @@ msgstr "サーバからの回答なし(ネットワークに接続済?)"
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
+msgid "Nirvagi Error while processing transaction."
 msgstr "取引処理中のOdooエラー"
 
 #. module: pos_mercury

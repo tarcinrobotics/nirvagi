@@ -51,7 +51,7 @@ export class ErrorDialog extends Component {
 }
 ErrorDialog.template = "web.ErrorDialog";
 ErrorDialog.components = { Dialog };
-ErrorDialog.title = _t("Odoo Error");
+ErrorDialog.title = _t("Nirvagi Error");
 ErrorDialog.props = { ...standardErrorDialogProps };
 
 // -----------------------------------------------------------------------------

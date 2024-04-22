@@ -3,8 +3,8 @@
 # 	* account
 # 
 # Translators:
-# Tony Ng, 2024
 # Wil Odoo, 2024
+# Tony Ng, 2024
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:44+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Tony Ng, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8163,7 +8163,7 @@ msgstr "大於"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report_expression__green_on_positive
 msgid "Is Growth Good when Positive"
-msgstr "當積極時增長好嗎"
+msgstr "當正數時，增長是否良好"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_amount__lower
@@ -10932,6 +10932,15 @@ msgstr "請從科目表功能建立新科目."
 #, python-format
 msgid "Please define a payment method line on your payment."
 msgstr "請在您的付款中定義付款方式明細."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_payment.py:0
+#, python-format
+msgid ""
+"The selected payment method is not available for this payment, please select"
+" the payment method again."
+msgstr "所選付款方式不適用於本次付款，請重新選擇付款方式。"
 
 #. module: account
 #. odoo-python
@@ -16247,6 +16256,13 @@ msgstr "您不能建立已處於已過帳狀態的日記帳傳票. 請建立草�
 
 #. module: account
 #. odoo-python
+#: code:addons/account/models/account_account.py:0
+#, python-format
+msgid "You cannot create recursive groups."
+msgstr "你不可建立遞歸群組。"
+
+#. module: account
+#. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 #, python-format
 msgid ""
@@ -16269,6 +16285,24 @@ msgid ""
 "You cannot delete this entry, as it has already consumed a sequence number "
 "and is not the last one in the chain. You should probably revert it instead."
 msgstr "不可刪除此記項，因它已使用序列內的一個號碼，而且不是數據鏈的最後一項。你也許應該恢復它。"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/ir_actions_report.py:0
+#, python-format
+msgid ""
+"You cannot delete this report (%s), it is used by the accounting PDF "
+"generation engine."
+msgstr "你不可刪除此報告（%s），因為會計 PDF 生成引擎會使用。"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account_tag.py:0
+#, python-format
+msgid ""
+"You cannot delete this account tag (%s), it is used on the chart of account "
+"definition."
+msgstr ""
 
 #. module: account
 #. odoo-python

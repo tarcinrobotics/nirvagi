@@ -256,8 +256,8 @@ msgstr "Geen reacties van server (verbonden met netwerk?)"
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #: code:addons/pos_mercury/static/src/overrides/components/payment_screen/payment_screen.js:0
 #, python-format
-msgid "Odoo error while processing transaction."
-msgstr "Odoo error tijdens transactie verwerking."
+msgid "Nirvagi Error while processing transaction."
+msgstr "Nirvagi Error tijdens transactie verwerking."
 
 #. module: pos_mercury
 #. odoo-javascript
